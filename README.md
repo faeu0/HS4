@@ -29,7 +29,7 @@ Desenvolver uma aplicação de apoio, que auxilie pacientes na leitura e interpr
 - Erros na interpretação dessas informações podem resultar, por exemplo, na administração incorreta de medicamentos e complicações na saúde dos pacientes.
 - Uma ferramenta que auxilie na leitura e interpretação desses documentos pode melhorar significativamente o tratamento, a comunicação entre médicos e pacientes e a redução de retorno de pacientes aos serviços.
 
-![b4e973f0-56bd-4a68-a66b-d2f3714528d2.jpg]([https://prod-files-secure.s3.us-west-2.amazonaws.com/88cb7d35-8836-4799-86c8-eaf6f5c74d4c/4c4d6ce2-f0a0-43df-927a-9679286d2731/b4e973f0-56bd-4a68-a66b-d2f3714528d2.jpg](https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/b4e973f0-56bd-4a68-a66b-d2f3714528d2.jpg))
+![b4e973f0-56bd-4a68-a66b-d2f3714528d2.jpg](https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/b4e973f0-56bd-4a68-a66b-d2f3714528d2.jpg)
 
 ## **Resultados Esperados**
 
@@ -59,7 +59,7 @@ Paciente - "Soluções que que auxiliam pacientes e melhorem o acesso a saúde, 
 
 ## **Business Plan**
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/88cb7d35-8836-4799-86c8-eaf6f5c74d4c/ad93778c-b103-479c-9547-9be23783e0e7/Untitled.png)
+![Untitled](https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/BP.png)
 
 ## Funcionalidades da aplicação
 
@@ -70,7 +70,7 @@ Paciente - "Soluções que que auxiliam pacientes e melhorem o acesso a saúde, 
 
 ## **Roadmap**
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/88cb7d35-8836-4799-86c8-eaf6f5c74d4c/95ee108f-a218-4b21-8f06-04d5ba235d56/Untitled.png)
+![Untitled](https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/RM.png)
 
 ## Obstáculos e mitigações
 
@@ -117,7 +117,7 @@ Para realização de testes da ferramenta disponibilizamos uma receita real que 
     - Definimos como seria o conceito das paginas.
     - Adicionamos componentes de UI como botões, campos de texto e áreas para exibição de imagem.
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/88cb7d35-8836-4799-86c8-eaf6f5c74d4c/8ca1a1f3-4d0c-47dd-b099-a53c309c6c60/Untitled.png)
+    ![Untitled](https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/PAG.png)
     
 
 ### Passo 2: Backend no Supabase
@@ -130,7 +130,7 @@ Para realização de testes da ferramenta disponibilizamos uma receita real que 
 3. **Obter Chaves de API:**
     - Na seção "Settings" do Supabase, copiamos as chaves de API necessárias para integração com o FlutterFlow.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/88cb7d35-8836-4799-86c8-eaf6f5c74d4c/feb0908f-e7c0-4408-b7e9-d896d7994a19/Untitled.png)
+![Untitled](https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/SUPB.png)
 
 ### Passo 3: Integrar o Supabase com o FlutterFlow
 
@@ -141,7 +141,7 @@ Para realização de testes da ferramenta disponibilizamos uma receita real que 
     - Criamos um fluxo no FlutterFlow para permitir upload de imagens pelos usuários.
     - Utilizamos a integração com o Supabase para enviar essas imagens ao bucket de armazenamento.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/88cb7d35-8836-4799-86c8-eaf6f5c74d4c/cecd474a-1958-49d7-940a-d9f00521600a/Untitled.png)
+![Untitled](https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/APSUPB.png)
 
 ### Passo 4: Processamento de Imagens com a API Vision da OpenAI
 
@@ -153,7 +153,7 @@ Para realização de testes da ferramenta disponibilizamos uma receita real que 
     - Recebemos o resultado do processamento e armazenamos no banco de dados do Supabase.
     - Exibimos o resultado ao usuário da aplicação.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/88cb7d35-8836-4799-86c8-eaf6f5c74d4c/a9d296f8-33e1-4730-a2d4-b3b8727edc3c/Untitled.png)
+![Untitled](https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/APVIS.png)
 
 Prompt: 
 
@@ -170,10 +170,10 @@ Você é um médico muito habilidoso em ler receitas médicas escritas a mão on
     - Quando satisfeitos com o funcionamento, usamos as ferramentas de publicação do FlutterFlow para gerar a aplicação Web, também disponível no formato PWA (Progressive Web App).
     - O acesso ao código flutter não pode ser disponibilizado devido a utilização do plano gratuito do FlutterFlow.
     
-    ![dsgfhsiuhgf.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/88cb7d35-8836-4799-86c8-eaf6f5c74d4c/ea4b8a18-541a-4b48-9541-7921dca3e03d/dsgfhsiuhgf.gif)
+    ![dsgfhsiuhgf.gif](https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/dsgfhsiuhgf.gif)
     
     # Agradecimentos
     
     Gostaríamos de expressar nosso profundo agradecimento por esta incrível oportunidade. A equipe NC Brasil está honrada em participar deste hackathon organizado pela Docsolution. Sua confiança e apoio são extremamente valiosos para nós, e apreciamos imensamente a chance de trabalhar com vocês neste desafio. Novamente, muito obrigado por esta oportunidade e por acreditarem em nosso potencial.
     
-    ![1687520159124.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/88cb7d35-8836-4799-86c8-eaf6f5c74d4c/74c62605-4efc-4170-a4f3-3bdda7f8e6a4/1687520159124.gif)
+    ![1687520159124.gif](https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/1687520159124.gif)

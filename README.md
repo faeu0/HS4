@@ -105,9 +105,9 @@ Paciente - "Soluções que que auxiliam pacientes e melhorem o acesso a saúde, 
 
 # Solução: DocReader IA
 
-Ao fornecer uma imagem do receituário, a aplicação é capaz de digitalizar e processar o conteúdo, transformando informações complexas em dados estruturados e de fácil compreensão. Acesse o MVP (Produto Mínimo Viável) da aplicação através do link: [DocReader IA](https://docreaderia.flutterflow.app/){:target="_blank"}.
+Ao fornecer uma imagem do receituário, a aplicação é capaz de digitalizar e processar o conteúdo, transformando informações complexas em dados estruturados e de fácil compreensão. Acesse o MVP (Produto Mínimo Viável) da aplicação através do link: [DocReader IA](https://docreaderia.flutterflow.app/).
 
-Para realização de testes da ferramenta disponibilizamos uma receita real que pode ser acessada [AQUI](https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/testes/1719171287746000.jpg){:target="_blank"}.
+Para realização de testes da ferramenta disponibilizamos uma receita real que pode ser acessada [AQUI](https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/testes/1719171287746000.jpg).
 
 # Passo a Passo: Criação da Aplicação
 

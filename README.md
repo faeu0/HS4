@@ -1,4 +1,6 @@
-![483ccb20-7779-44ca-97f7-6a8f94f4e567.jpg](https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/483ccb20-7779-44ca-97f7-6a8f94f4e567.jpg)
+<p align="center">
+    <img width="200" src="https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/483ccb20-7779-44ca-97f7-6a8f94f4e567.jpg">
+</p>
 
 # Componentes do grupo
 
@@ -29,7 +31,9 @@ Desenvolver uma aplicação de apoio, que auxilie pacientes na leitura e interpr
 - Erros na interpretação dessas informações podem resultar, por exemplo, na administração incorreta de medicamentos e complicações na saúde dos pacientes.
 - Uma ferramenta que auxilie na leitura e interpretação desses documentos pode melhorar significativamente o tratamento, a comunicação entre médicos e pacientes e a redução de retorno de pacientes aos serviços.
 
-![b4e973f0-56bd-4a68-a66b-d2f3714528d2.jpg](https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/b4e973f0-56bd-4a68-a66b-d2f3714528d2.jpg)
+<p align="center">
+    <img width="400" src="https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/b4e973f0-56bd-4a68-a66b-d2f3714528d2.jpg">
+</p>
 
 ## **Resultados Esperados**
 
@@ -55,7 +59,6 @@ Paciente - "Soluções que que auxiliam pacientes e melhorem o acesso a saúde, 
 - Por fim, em 2023, o Conselho Federal de Farmácia (CFF) lançou a campanha "Uma letra ilegível pode ser fatal", com o objetivo de conscientizar os profissionais de saúde e a população sobre a importância da escrita legível nas prescrições de medicamentos.
     
     [Fonte: CONSELHO FEDERAL DE FARMÁCIA, 2023](https://site.cff.org.br/noticia/noticias-do-cff/05/05/2023/uma-letra-ilegivel-pode-ser-fatal-cff-lanca-campanha-em-prol-da-prescricao-correta-de-medicamentos)
-    
 
 ## **Business Plan**
 
@@ -70,7 +73,7 @@ Paciente - "Soluções que que auxiliam pacientes e melhorem o acesso a saúde, 
 
 ## **Roadmap**
 
-![Untitled](https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/RM.png)
+![Untitled](https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/Captura_de_tela_2024-06-23_210609.png?t=2024-06-24T00%3A06%3A48.192Z)
 
 ## Obstáculos e mitigações
 
@@ -116,10 +119,11 @@ Para realização de testes da ferramenta disponibilizamos uma receita real que 
     - Escolhemos um template de página em branco.
     - Definimos como seria o conceito das paginas.
     - Adicionamos componentes de UI como botões, campos de texto e áreas para exibição de imagem.
+      
+  <p align="center">
+    <img width="650" src="https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/PAG.png">
+  </p>  
     
-    ![Untitled](https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/PAG.png)
-    
-
 ### Passo 2: Backend no Supabase
 
 1. **Configurar Banco de Dados:**
@@ -129,8 +133,11 @@ Para realização de testes da ferramenta disponibilizamos uma receita real que 
     - Configuramos as permissões de acesso para permitir leitura e escrita neste bucket.
 3. **Obter Chaves de API:**
     - Na seção "Settings" do Supabase, copiamos as chaves de API necessárias para integração com o FlutterFlow.
+  
+  <p align="center">
+    <img width="650" src="https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/SUPB.png">
+  </p>  
 
-![Untitled](https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/SUPB.png)
 
 ### Passo 3: Integrar o Supabase com o FlutterFlow
 
@@ -141,7 +148,9 @@ Para realização de testes da ferramenta disponibilizamos uma receita real que 
     - Criamos um fluxo no FlutterFlow para permitir upload de imagens pelos usuários.
     - Utilizamos a integração com o Supabase para enviar essas imagens ao bucket de armazenamento.
 
-![Untitled](https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/APSUPB.png)
+  <p align="center">
+    <img width="650" src="https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/APSUPB.png">
+  </p>  
 
 ### Passo 4: Processamento de Imagens com a API Vision da OpenAI
 
@@ -153,7 +162,9 @@ Para realização de testes da ferramenta disponibilizamos uma receita real que 
     - Recebemos o resultado do processamento e armazenamos no banco de dados do Supabase.
     - Exibimos o resultado ao usuário da aplicação.
 
-![Untitled](https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/APVIS.png)
+  <p align="center">
+    <img width="700" src="https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/APVIS.png">
+  </p>  
 
 Prompt: 
 
@@ -169,11 +180,16 @@ Você é um médico muito habilidoso em ler receitas médicas escritas a mão on
 2. **Publicar a Aplicação:**
     - Quando satisfeitos com o funcionamento, usamos as ferramentas de publicação do FlutterFlow para gerar a aplicação Web, também disponível no formato PWA (Progressive Web App).
     - O acesso ao código flutter não pode ser disponibilizado devido a utilização do plano gratuito do FlutterFlow.
+
+  <p align="center">
+    <img width="350" src="https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/dsgfhsiuhgf.gif">
+  </p>  
+
+### Agradecimentos
     
-    ![dsgfhsiuhgf.gif](https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/dsgfhsiuhgf.gif)
-    
-    # Agradecimentos
-    
-    Gostaríamos de expressar nosso profundo agradecimento por esta incrível oportunidade. A equipe NC Brasil está honrada em participar deste hackathon organizado pela Docsolution. Sua confiança e apoio são extremamente valiosos para nós, e apreciamos imensamente a chance de trabalhar com vocês neste desafio. Novamente, muito obrigado por esta oportunidade e por acreditarem em nosso potencial.
-    
-    ![1687520159124.gif](https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/1687520159124.gif)
+Gostaríamos de expressar nosso profundo agradecimento por esta incrível oportunidade. A equipe NC Brasil está honrada em participar deste hackathon organizado pela Docsolution. Sua confiança e apoio são extremamente valiosos para nós, e apreciamos imensamente a chance de trabalhar com vocês neste desafio. Novamente, muito obrigado por esta oportunidade e por acreditarem em nosso potencial.
+
+ <p align="center">
+    <img width="200" src="https://qntnzfiotlkpreavgewa.supabase.co/storage/v1/object/public/Imagens/1687520159124.gif">
+  </p> 
+ 
